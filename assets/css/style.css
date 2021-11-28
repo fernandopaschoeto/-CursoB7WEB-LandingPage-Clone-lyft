@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+    background-color: #d8dfe6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    width: 100%;
+    height: 600px;
+}
+
+.banner {
+    background-image: url("../imagem/woman-driving-automobile.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 577px;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.logo img {
+    width: 52px;
+    margin-top: 15px;
+    margin-left: 150px;
+    height: auto;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+nav {
+    margin-right: 150px;
+}
+
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    font-size: 15px;
+    list-style: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    max-width: 350px;
+    margin-left: 150px;
+}
+
+.title h1 {
+    color: #FFF;
+    font-size: 35px;
+
+}
+
+.apply {
+    height: auto;
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 150px;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.apply p {
+    font-size: 14px;
+    color: #bbbebf;
+}
+
+p.link {
+    font-size: 12px;
+}
+
+.apply a {
+    color: #ea0a8c;
+}
+
+.apply input {
+    width: 100%;
+    color: #bbbebf;
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #bbbebf;
+    border-radius: 5px;
+}
+
+input[type = checkbox] {
+    left: 0;
+    width: auto;
+}
+
+input[type = submit] {
+    background-color: #ea0a8c;
+    border: 1px solid #000;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    padding: 8px;
+    margin: 5px;
+}
+
+.apply label {
+    color: #bbbebf;
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+
+footer input {
+    color: #bbbebf;
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #bbbebf;
+    border-radius: 5px;
+}
+
+footer h1 {
+    margin-bottom: 0;
+}
+
+footer p {
+    color: #767b88;
+    font-size: 14px;
+}
